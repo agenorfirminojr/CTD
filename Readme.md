@@ -10,4 +10,4 @@ Repositório destinado aos exercícios da disciplina
 
 
 ## 🚀 Sobre mim
-Estudante do curso Certified Tech Developer da escola Digital House Brasil
+Estudante do curso Certified Tech Developer na escola Digital House Brasil
