@@ -1,0 +1,1 @@
+# Pensando como o computador
