@@ -1,0 +1,17 @@
+{
+  "name": "aula14",
+  "version": "1.0.0",
+  "description": "Aula 14 Digital House Node.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "aula14",
+    "nodejs",
+    "digital-house",
+    "dh"
+  ],
+  "author": "Agenor Junior",
+  "license": "ISC"
+}
