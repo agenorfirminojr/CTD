@@ -1,4 +1,4 @@
-const consertos = [
+let consertos = [
     {
         aparelho: "computador",
         itensConsertados: ["placa mãe", "memória RAM"],
@@ -46,7 +46,7 @@ const consertos = [
         itensConsertados: ["tampa", "motor"],
         valores: [100, 25],
         pronto: true
-    }
+    },
     {
         aparelho: "videocassete",
         itensConsertados: ["tampa", "visor"],
@@ -65,13 +65,13 @@ const consertos = [
         valores: [100, 25],
         pronto: true
     },
-      {
+    {
         aparelho: "videogame",
         itensConsertados: ["tampa", "motor"],
         valores: [100, 25],
         pronto: false
     },
-      {
+    {
         aparelho: "teclado mecanico",
         itensConsertados: ["tecla enter", "tecla espaço"],
         valores: [100, 25],
@@ -89,5 +89,6 @@ const consertos = [
         valores: [100, 25],
         pronto: true
     },
+];
 
-    module.exports = consertos;
+module.exports = [consertos];

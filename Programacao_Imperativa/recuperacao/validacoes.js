@@ -1,22 +1,19 @@
-import consertos from './consertos';
+import consertos from './consertos.js';
 
-for (let i = 0; i < consertos.length; i++) {
-    const aparelho = consertos[i].aparelho;
-    const itensConsertados = consertos[i].itensConsertados;
-    const valores = consertos[i].valores;
-    const pronto = consertos[i].pronto;
-  
-    if (typeof aparelho !== 'string') {
-      console.log(`O aparelho na posição ${i} não é uma string.`);
-    }
-    if (!Array.isArray(itensConsertados)) {
-      console.log(`Os itens consertados na posição ${i} não são um array.`);
-    }
-    if (!Array.isArray(valores)) {
-      console.log(`Os valores na posição ${i} não são um array.`);
-    }
-    if (typeof pronto !== 'boolean') {
-      console.log(`O pronto na posição ${i} não é um boolean.`);
-    }
+consertos.forEach(conserto => {
+  if (typeof conserto.aparelho !== 'string') {
+    console.error('O atributo "aparelho" deve ser uma string');
   }
-  
+
+  if (!Array.isArray(conserto.itensConsertados)) {
+    console.error('O atributo "itensConsertados" deve ser um array');
+  }
+
+  if (!Array.isArray(conserto.valores)) {
+    console.error('O atributo "valores" deve ser um array');
+  }
+
+  if (typeof conserto.pronto !== 'boolean') {
+    console.error('O atributo "pronto" deve ser um boolean');
+  }
+});
